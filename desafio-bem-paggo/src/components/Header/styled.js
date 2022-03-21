@@ -25,6 +25,11 @@ header{
         color: white;
         font-size: 1.7em;
        }
+
+       h1{
+        color: white;
+        font-size: 3em;
+       }
       
    }
 

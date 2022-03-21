@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 import Router from './router/Router';
 import React from 'react';
+import GlobalState from './contexts/GloblaState';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -13,12 +14,12 @@ const GlobalStyle = createGlobalStyle`
     }
   }`
 
-const App = () =>{
+const App = () => {
   return (
-    <div>
+    <GlobalState>
       <GlobalStyle />
       <Router />
-    </div>
+    </GlobalState>
   );
 }
 

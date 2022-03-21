@@ -36,20 +36,20 @@ export const Form = styled.div`
 export const CardInfo = styled.div`
 display: flex;
 flex-direction: row;
-width: 95%;
+width: 35vw;
 height: 30vh;
 align-items: center;
 justify-content: center;
-border: 1px solid black;
    div{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 100%;    
+        height: 100%; 
+        border: 1px solid #274360;   
+        margin: 3px;
     img{
         width: 100%;
         height: 75%;
-   
     }
     h4{
         margin-top: -2vh;
@@ -61,16 +61,18 @@ border: 1px solid black;
             font-size: 18px;
         }
         button{
-            width: 2.5vw;
-            height: 3vh;
-            margin: 5px;
+            width: 8vw;
+            height: 3.5vh;
+            margin-bottom: 0.7vh;;
             background-color: #274360;
             border: none;
             border-radius: 7px;
-            font-size: 18px;
+            font-size: 16px;
+            color: white;
             :hover{
                 background-color: white;
                 border: 1px solid #274360;
+                color: black;
             }
             :active{
                 background-color: #274360;
@@ -79,3 +81,43 @@ border: 1px solid black;
     }
    }
 `
+
+export const CardForm = styled.section`
+h3{
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    input{
+        width: 35vw;;
+        height: 11vh;
+        margin-top: 1vh;
+        border-radius: 1em;
+        padding:0.5vw
+    }
+    button{
+        width: 15vw;;
+        height: 4vh;
+        margin-top: 3vh;
+        border-radius: 0.5em;
+        background-color: #274360;
+        border: none;
+        font-size: 1em;
+        color: white;
+        :hover{
+                background-color: white;
+                border: 1px solid #274360;
+                color: black;
+            }
+        :active{
+                background-color: #274360;
+            }
+    }
+}
+
+}`

@@ -1,11 +1,15 @@
 import React, { useState } from "react";
-import GlobalStateContext from "./GlobalStateContext";
+import {GlobalStateContext} from './GlobalStateContext'
 
 const GlobalState = (props) => {
-    const [carrinho, setCarrinho] = useState([])
+    const [cart, setCart] = useState([])
+    const [note, setNote] = useState("")
+
+    const states = { cart, note}
+    const setters = { setCart, setNote}
 
     return (
-        <GlobalStateContext.Provider value={[carrinho, setCarrinho]}>
+        <GlobalStateContext.Provider value={{states, setters}}>
             {props.children}
         </GlobalStateContext.Provider>
     )

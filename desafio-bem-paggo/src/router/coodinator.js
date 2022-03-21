@@ -3,5 +3,5 @@ export const goToForm = (history) =>{
 }
 
 export const goToCart = (history) =>{
-    history('/carrnho')
+    history('/carrinho')
 }
