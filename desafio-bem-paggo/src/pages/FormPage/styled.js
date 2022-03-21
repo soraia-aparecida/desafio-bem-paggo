@@ -20,11 +20,15 @@ export const Form = styled.div`
     section{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin-top: 5vh;
+        justify-content: space-be;
+        align-items: center;
+        margin-top: 2vh;
         h2{
             margin-left: 2vw;
-            margin-bottom: 2vh;
+            margin-bottom: 1vh;
+        }
+        h3{
+            margin-left: 2vw;
         }
     }
 `
@@ -32,42 +36,38 @@ export const Form = styled.div`
 export const CardInfo = styled.div`
 display: flex;
 flex-direction: row;
-align-items: center;
-/* border: 2px solid red; */
-width: 100%;
+width: 95%;
 height: 30vh;
-justify-content: space-around;
-
+align-items: center;
+justify-content: center;
+border: 1px solid black;
    div{
         display: flex;
         flex-direction: column;
         align-items: center;
-        border: 1px solid black;
-        /* background-color: pink;     */
-        height: 95%;    
+        height: 100%;    
     img{
         width: 100%;
-        height: 80%;
-        /* border: 1px solid red;   */
+        height: 75%;
+   
     }
     h4{
         margin-top: -2vh;
     }
-    div{
+    section{
         display: flex;
-        flex-direction: row;
-        border: none;
-        margin-top: 0.2vh;
+        flex-direction: row; 
         p{
             font-size: 18px;
         }
         button{
-            width: 3vw;
+            width: 2.5vw;
             height: 3vh;
             margin: 5px;
             background-color: #274360;
             border: none;
             border-radius: 7px;
+            font-size: 18px;
             :hover{
                 background-color: white;
                 border: 1px solid #274360;
