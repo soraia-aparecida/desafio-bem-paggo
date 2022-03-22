@@ -23,6 +23,11 @@ Um formulário para cadastro de pedidos de compras de adesivos.
 - React.js (Hooks, Context....)
 - Biblioteca Styled Components;
 - React Router 6.2.1;
+- Jest 
+
+#
+- Realizei 3 testes com a ferramenta Jest, pois foi solicitado testes automatizados. Para excutá-lós, basta rodar o script npm run test, no terminal. 
+
 
 ### Imagens da aplicação:
 ![image](https://media.discordapp.net/attachments/895788142118969386/955867396470620170/unknown.png?width=765&height=430)
