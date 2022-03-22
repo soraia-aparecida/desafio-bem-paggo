@@ -22,7 +22,7 @@ Um formulário para cadastro de pedidos de compras de adesivos.
 ### Tecnologias utilizadas:
 - React.js (Hooks, Context....)
 - Biblioteca Styled Components;
-- React Router 6.2.1;
+- React Router 6.2.2;
 - Jest 
 
 #
