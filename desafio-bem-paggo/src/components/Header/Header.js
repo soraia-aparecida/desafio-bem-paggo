@@ -1,8 +1,8 @@
-import React from 'react';
-import { Container } from './styled';
+import React from 'react'
+import { Container } from './styled'
 import caixa from '../../assets/caixa.png'
 import carrinho from '../../assets/carrinho.png'
-import { useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom'
 
 export function Header() {
     const location = useLocation()
@@ -35,10 +35,9 @@ export function Header() {
         )
     }
 
-    const notPage = () =>{
+    const notPage = () => {
         return <></>
     }
-
 
     const changeHeader = () => {
 
@@ -55,5 +54,4 @@ export function Header() {
     return (
         <>{changeHeader()}</>
     )
-    
 }

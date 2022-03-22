@@ -1,7 +1,7 @@
-export const goToForm = (history) =>{
+export const goToForm = (history) => {
     history('/')
 }
 
-export const goToCart = (history) =>{
+export const goToCart = (history) => {
     history('/carrinho')
 }

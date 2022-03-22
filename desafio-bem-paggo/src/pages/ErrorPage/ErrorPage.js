@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 import erro from "../../assets/error.jpg"
-import { ErrorImg } from './styled';
+import { ErrorImg } from './styled'
 
-const ErrorPage = () =>{
+const ErrorPage = () => {
     return (
         <div>
-            <ErrorImg src={erro} alt='imagem de erro'/>
+            <ErrorImg src={erro} alt='imagem de erro' />
         </div>
     )
 }

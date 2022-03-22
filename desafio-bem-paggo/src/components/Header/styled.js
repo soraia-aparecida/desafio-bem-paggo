@@ -21,6 +21,7 @@ header{
            font-size: 1.5em;
            color: white;
        } 
+       
        h2{
         color: white;
         font-size: 1.7em;
@@ -33,14 +34,11 @@ header{
       
    }
 
-       img{
+    img{
         width: 17vw;
         margin-right: 3.5vw;
         transform: scaleX(-1);
         margin-bottom: 0.9vh;
-        }  
-   
-   
-  
+    }  
 }
 `

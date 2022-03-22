@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
-import Router from './router/Router';
-import React from 'react';
-import GlobalState from './contexts/GloblaState';
+import Router from './router/Router'
+import React from 'react'
+import GlobalState from './contexts/GloblaState'
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -20,7 +20,7 @@ const App = () => {
       <GlobalStyle />
       <Router />
     </GlobalState>
-  );
+  )
 }
 
-export default App;
+export default App
